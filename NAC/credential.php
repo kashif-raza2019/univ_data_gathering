@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "uniqueness";
-    $dbname = "criteria_iqac_nac_common";
+    $dbname = "t3";
     $dbname_log = "criteria_iqac_log";
 
 function getUserIP(){
@@ -35,7 +35,7 @@ function getUserIP(){
 
     $servername_log = "localhost";
     $username_log = "root";
-    $password_log = "uniqueness";
+    $password_log = "";
     $dbname_log = "criteria_iqac_log";
 
     $connection_log = mysqli_connect($servername_log, $username_log, $password_log, $dbname_log) ;//or die("Connection error: " );
