@@ -1,8 +1,8 @@
 <?php
     $servername = "localhost";
     $username = "root";
-    $password = "uniqueness";
-    $dbname = "t3";
+    $password = "";//To be changed as well
+    $dbname = "t3";//To be changed according to the Main DB table Name
     $dbname_log = "criteria_iqac_log";
 
 function getUserIP(){
